@@ -64,7 +64,7 @@ En esta sección se trabaja con un dataset de clientes bancarios para predecir s
 4. **Evaluación del Modelo**: Se evalúan los modelos utilizando métricas como precisión, recall y F1-score. Se justifica la elección de estas métricas debido al desequilibrio de clases en el dataset.
 5. **Hiperparametrización**: Se utiliza Random Search para la optimización de hiperparámetros. Aunque Grid Search hubiera sido preferible, los recursos computacionales no lo permitieron.
 6. **Balanceo de Clases**: Se aplican técnicas de balanceo de clases (como SMOTE) para mejorar el rendimiento del modelo en la clase minoritaria (clientes que hacen default).
-7. **Resultados**: El modelo final (XGBoost) obtuvo un F1-score de 0.78, lo que indica un buen equilibrio entre precisión y recall.
+7. **Resultados**: El modelo final (Random Forest) obtuvo un recall de 0.70 para la clase 1,  lo que indica que, a pesar del desbalanceo de las clases el modelo cuenta con una buen performance para predecir la probabilidad de default de un cliente.
 
 ---
 
