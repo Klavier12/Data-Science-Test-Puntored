@@ -69,10 +69,10 @@ En esta sección se trabaja con un dataset de clientes bancarios para predecir s
 ---
 
 ## Resumen de Resultados
-- **Modelo Final**: Random Forest con hiperparámetros optimizados mediante Random Search.
+- **Modelo Final**: Regresion Logistica con hiperparámetros optimizados mediante Random Search.
 - **Métricas**:
-  - AUC-ROC: 0.83
-  - Recall: 0.70
+  - AUC-ROC: 0.81
+  - Recall: 0.80
   - **Output**: Se generó un archivo CSV con la probabilidad de default para cada cliente, identificando aquellos con mayor riesgo. Y otro archivo que contiene aquello que representan un menor riesgo (no default).
 
 ---
