@@ -73,7 +73,7 @@ En esta sección se trabaja con un dataset de clientes bancarios para predecir s
 - **Métricas**:
   - AUC-ROC: 0.83
   - Recall: 0.70
-  - **Output**: Se generó un archivo CSV con la probabilidad de default para cada cliente, identificando aquellos con mayor riesgo.
+  - **Output**: Se generó un archivo CSV con la probabilidad de default para cada cliente, identificando aquellos con mayor riesgo. Y otro archivo que contiene aquello que representan un menor riesgo (no default).
 
 ---
 
